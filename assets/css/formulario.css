@@ -1,0 +1,73 @@
+
+.formpage {
+    display: grid;
+    direction: center;
+    align-items:center;
+    align-content: center;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: red;
+    max-width: 500px;
+    min-height: 500px;
+   text-align: center;
+}
+
+.intextarea {
+    width: 230px;
+    padding: 10px;
+    color: black;
+    margin-left: 7%;
+    margin-top: 10px;
+   
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #fcf7f7;
+    color: black;
+    font-weight: bold;
+}
+.enviar {
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    padding-block: 2%;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    margin-bottom: 5%;
+   margin-left: 40%;
+    
+}
+
+
+textarea {
+    width: 600px;
+    height: 100px;
+    line-height: 20px;
+    max-width: 400px;
+    margin-left: 7%;
+}
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+}
+.emaillabel{
+    text-align: center;
+    padding-top: 3%;
+}
+#h1{
+    color: white;
+    padding-top: 2%;
+}
+.lable-inferior{
+    margin-left: 7%;
+}

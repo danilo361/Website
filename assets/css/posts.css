@@ -1,0 +1,42 @@
+section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section article{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+article h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+article time{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+article p{
+    line-height: 1.5;
+}
+
+
+
+.espacamento-linha-15{
+    line-height: 1.5;
+}
+
+.espacamento-duplo{
+    line-height: 2;
+}
+
+.post-assinatura{
+    text-align: right;
+    font-style: italic;
+}

@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 1;
+    box-sizing: border-box;
+    
+  }
+  #btn-login{
+    background-color: red;
+    color:white;
+    border-width: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:cursive;
+    font-style: italic;
+    width:57px;
+    height:35px
+  }
+  #btn-loginform{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 2px,2px,2px,2px;
+    text-align: center;
+    color:red;
+    border-width: 1px;
+    border-color: rgb(243, 143, 143);
+    cursor: pointer;
+    font-size: 15px;
+    font-family:cursive;
+    font-style: italic;
+    height: 40px;
+    width: 60%;
+  }
+  
+    .btn-login:hover, .text {
+      background-color: rgb(255, 83, 83)!important;
+      border-width: 0px;
+      border-radius: 5%;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      width:90px;
+      height:35px
+      }
+    
+  
+  .overlay {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+  
+  .overlay.open {
+    display: flex;
+    animation: show-overlay 0.5s;
+    padding-bottom: 20%;
+   
+  }
+  
+  @keyframes show-overlay {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .login {
+    padding: 50px 25px;
+    background: #f50a0a;
+    border-radius: 10px;
+    text-decoration: white;
+  }
+  
+  .header {
+    position: relative;
+  }
+  
+  .header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  .header i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+
+  .body .form input {
+    display: block;
+    padding: 10px;
+    margin: 25px 10px;
+    outline: none;
+    border: solid #f50a0a 1px;
+    color: #f50a0a;
+    transition: 0.4s;
+  }
+  
+  .body .form input:focus {
+    border-color: #534bae;
+  }
+  
+  .footer {
+    position: relative;
+    height: 40px;
+    width: 100%;
+  }
+  
+  .footer button {
+    position: absolute;
+    padding: 10px;
+    min-width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fefeff;
+    border: none;
+    color: #f50a0a;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .footer button:hover {
+    background: #55ff06;
+  }
+  #divNavlog{
+    text-align: center;
+    padding-left: 25%;
+}
